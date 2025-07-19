@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Practice</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body class="bg-white  text-center p-8 bg-[url('images/Decore.png')]   bg-no-repeat bg-right-top  bg-auto ">
+  <nav class="bg-transparent ">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16 items-center  ">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <a href="#" class="text-xl font-bold text-blue-600 mb-10 "><img src="images/Logo.png" class="w-115px h-34px ml-10"></a>
+      </div >
+
+      <!-- Menu (Desktop) -->
+      <div class="hidden md:flex space-x166 ml-10px">
+        <a href="#" class="text-gray-700 hover:text-blue-500 ml-36 font-semibold">Desitnations</a>
+        <a href="#" class="text-gray-700 hover:text-blue-500 ml-10 font-medium">Hotels</a>
+        <a href="#" class="text-gray-700 hover:text-blue-500 ml-10 font-medium">Flights</a>
+        <a href="#" class="text-gray-700 hover:text-blue-500 ml-10 mr-10 font-medium">Bookings</a>
+        <a href="#" class="text-gray-700 hover:text-blue-500 ml-28 font-medium">Login</a>
+        <a href="#" class="text-gray-700 hover:text-blue-500 ml-10 font-medium"><button class="px-4  bg-transparent border-2 border-gray-600 rounded hover:bg-blue-600 transition duration-300">Sign up</button> </a>
+        <a href="#" class="text-gray-700 hover:text-blue-900 mx-10 mr-10 font-medium"><button>EN</button></a>
+      </div>
+
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+          ☰
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu (hidden by default) -->
+  <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-2">
+    <a href="#" class="block text-gray-700 hover:text-blue-500">Desitnations</a>
+    <a href="#" class="block text-gray-700 hover:text-blue-500">Hotels</a>
+    <a href="#" class="block text-gray-700 hover:text-blue-500">Flights</a>
+    <a href="#" class="block text-gray-700 hover:text-blue-500">Bookings</a>
+    <a href="#" class="block text-gray-700 hover:text-blue-500">Login</a>
+    <a href="#" class="block text-gray-700 hover:text-blue-500">Sign up</a>
+    <a href="#" class="block text-gray-700 hover:text-blue-500 -ml-60">EN</a>
+  </div>
+</nav>
+
+<div class="flex justify-center overflow-hidden ">
+  <div class="mt-16 ml-16">
+   <img src="images/plane.png" class="ml-[390px] ">
+    <p class="text-red-500 font-bold text-left -mt-36">Best Destinations around the world</p>
+    <h1 class="font-bold text-6xl text-left font-volkhov text-blue-950">Travel, enjoy<br><img src="images/Vector.png" class="">
+and live a new  <br>
+and full life<br></h1>
+  <p class="font-poppins text-left  text-base text-gray-700 font-light">Built Wicket longer admire do barton vanity itself do in it.<br> Preferred to sportsmen it engrossed listening. Park gate <br> sell they west hard for the.</p>
+  <div class="-ml-0">
+  <button class="bg-yellow-600 text-white  mr-[590px] mt-5 w-[170px]  h-[60px]">Find out more</button>
+  <button class="-mt-16 mr-48 -ml-28"><img src="images/Play button.png" class="h-24"></button><p class="-mt-20 mr-32 ">Play Demo</p>
+  </div>
+  </div>
+  <div class=" -ml-52 "> 
+    
+    <img src="images/Traveller 1.png " class="w-[4000px] h-[600px] mr-10 ">
+ 
+  </div>
+</div>
+
+
+<div class="bg-white mt-40">
+  <p class="font-semibold">CATEGORY</p>
+  <h1 class="font-volkhov font-bold text-5xl">We Offer Best Services</h1>
+</div>
+<div class="flex justify-center gap-10 pt-20  ">
+  <div class=" p-10">
+    <img src="images/Group 48.png">
+    <p class="font-semibold pt-16">Calculated Weather</p>
+    <p>Built Wicket longer <br> admire do barton <br>vanity itself do in it.</p>
+
+  </div>
+  <div class=" p-10 rounded-2xl shadow-md">
+    <img src="images/Group 51.png" class="pt-1">
+    <p class="font-semibold ">Best Flights</p>
+     <p>Engrossed listening.<br> Park gate sell they <br> west hard for the.</p>
+  </div>
+  <div class=" p-10">
+    <img src="images/Group 50.png">
+    <p class="font-semibold pt-16">Local Events</p>
+    <p class="">Barton vanity itself do <br> in it. Preferd to men it <br> engrossed listening.</p>
+  </div>
+  <div class=" p-10">
+    <img src="images/Group 49.png">
+    <p class="font-semibold pt-16">Customization</p>
+    <p>We deliver outsourced<br>
+aviation services for<br>
+military customers</p>
+  </div>
+</div>
+
+
+
+
+  <div class="bg-white mt-40">
+  <p class="font-semibold">CATEGORY</p>
+  <h1 class="font-volkhov font-bold text-5xl">We Offer Best Services</h1>
+  </div>
+
+  <!-- <div class="flex pt-10 ">
+    <div class="inline bg-[url('images/Rectangle 14.png')]" >
+      
+      <span><div class="-top-11">
+      <div class="flex">
+        <p>Rome, Italy</p>
+        <p>$5,42k</p>
+      </div>
+      <p>10 days trip</p>
+      </div>
+      </span>
+    </div>
+
+
+    <div>
+      <img src="images/Rectangle 14.jpg">
+       <div class="flex">
+        <p>Rome, Italy</p>
+        <p>$5,42k</p>
+      </div>
+      <p>10 days trip</p>
+    </div>
+
+
+    <div >
+     <img src="images/Rectangle 14 (1).png">
+      <div class="flex">
+        <p>Rome, Italy</p>
+        <p>$5,42k</p>
+      </div>
+      <p>10 days trip</p>
+    </div>
+  </div>
+ -->
+
+
+
+<div class="flex flex-wrap justify-center gap-6 p-8 bg-white">
+  
+  <div class="bg-white rounded-2xl shadow-lg w-72 overflow-hidden">
+    <img src="images/Rectangle 14.png" alt="Rome" class="w-full h-48 object-cover rounded-t-2xl">
+    <div class="p-2">
+      <h3 class="text-lg font-semibold text-black">Rome, Italy</h3>
+      <p class="text-gray-600">$5.42k</p>
+      <div class="flex items-center text-sm text-gray-500 mt-2">
+        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M17.657 16.657L13.414 12.414m0 0L9.172 8.172m4.242 4.242L6.343 6.343A8 8 0 1112 20a8 8 0 01-5.657-2.343z"></path>
+        </svg>
+        <span>10 Days Trip</span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="bg-white rounded-2xl shadow-lg w-72 overflow-hidden">
+    <img src="images/Rectangle 14.jpg" alt="London" class="w-full h-48 object-cover rounded-t-2xl">
+    <div class="p-2">
+      <h3 class="text-lg font-semibold text-black">London, UK</h3>
+      <p class="text-gray-600">$4.2k</p>
+      <div class="flex items-center text-sm text-gray-500 mt-2">
+        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M17.657 16.657L13.414 12.414m0 0L9.172 8.172m4.242 4.242L6.343 6.343A8 8 0 1112 20a8 8 0 01-5.657-2.343z"></path>
+        </svg>
+        <span>12 Days Trip</span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="bg-white rounded-2xl shadow-lg w-72 overflow-hidden">
+    <img src="images/Rectangle 14 (1).png" alt="Europe" class="w-full h-48 object-cover rounded-t-2xl">
+    <div class="p-2">
+      <h3 class="text-lg font-semibold text-black">Full Europe</h3>
+      <p class="text-gray-600">$15k</p>
+      <div class="flex items-center text-sm text-gray-500 mt-2">
+        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M17.657 16.657L13.414 12.414m0 0L9.172 8.172m4.242 4.242L6.343 6.343A8 8 0 1112 20a8 8 0 01-5.657-2.343z"></path>
+        </svg>
+        <span>28 Days Trip</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
